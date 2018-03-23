@@ -1,14 +1,10 @@
 ---
 layout: post
-title:  "Lottie 사용법"
+title:  "Lottie 사용법(Android Studio)"
 date:   2018-03-15
-excerpt: "Littie"
+excerpt: "Lottie, After Effect, Android Studio, Animation, Json"
 tag:
-- Lottie 
-- After Effect
-- BodyMovin
-- test
-- Android
+- Android Studio
 comments: true
 ---
 
@@ -17,6 +13,8 @@ comments: true
 * After Effet 애니메이션을 실시간으로 렌더링하는 라이브러리
 * JSON 형식으로 추출한 애니메이션 데이터 사용
 * API14 이상 안드로이드 버전 필요
+
+
 ## Usage
 
 #### After Effect
@@ -25,13 +23,14 @@ comments: true
 * Download에 bodymovin으로 render하여 json 파일 생성
 
 #### Android Studio
-* Gradle dependencies에 [github](https://github.com/airbnb/lottie-android) 최신 버전 확인하여 추가
+* Gradle dependencies에 [github](https://github.com/airbnb/lottie-android) 최신 버전 확인하여 추가 
 ~~~
 dependencies {
   compine 'com.airbnb.android:lottie:2.2.5'
 }
 ~~~
-* xml
+
+* xml 입력
 ~~~
 <com.airbnb.lottie.LottieAnimationView
     android:id="@+id/animation_view"
@@ -40,8 +39,9 @@ dependencies {
     app:lottie_autoPlay="true"
     app:lottie_fileName="---.json" //assets에 추가한 json파일명 적확히 기입
     app:lottie_loop="true"/>
-~~~    
-* JAVA Code
+~~~ 
+
+* JAVA Code 입력
 ~~~
 LottieAnimationView animationView = (LottieAnimationView) findViewById(R.id.animation_view);
 animationView.setAnimation("data.json");
@@ -51,7 +51,7 @@ animationView.playAnimation();
 
 <figure>
 	<a href="https://github.com/airbnb/lottie-android/raw/master/gifs/Example2.gif"><img src="https://github.com/airbnb/lottie-android/raw/master/gifs/Example2.gif"></a>
-	<figcaption><a href="https://airbnb.design/lottie/" title="Lottie">Lottie</a>.</figcaption>
+	<figcaption><a href="https://airbnb.design/lottie/" title="Lottie">Go to 'Lottie' for more information.</a>.</figcaption>
 </figure>
 
 

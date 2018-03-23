@@ -2,12 +2,9 @@
 layout: post
 title:  "윈도우 JDK, JRE 위치 확인"
 date:   2018-03-23
-excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
+excerpt: "Find JDK, JRE Location on Window"
 tag:
-- JDK
-- JRE
-- 위치
-- 윈도우
+- Java
 comments: true
 ---
 
