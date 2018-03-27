@@ -26,13 +26,15 @@ comments: true
 
 #### Android Studio
 * Gradle dependencies에 [github](https://github.com/airbnb/lottie-android) 최신 버전 확인하여 추가 
+
 ~~~
 dependencies {
   compine 'com.airbnb.android:lottie:2.2.5'
 }
 ~~~
 
-* xml 입력
+* xml 입력 
+
 ~~~
 <com.airbnb.lottie.LottieAnimationView
     android:id="@+id/animation_view"
@@ -43,7 +45,8 @@ dependencies {
     app:lottie_loop="true"/>
 ~~~ 
 
-* JAVA Code 입력
+* JAVA Code 입력 
+
 ~~~
 LottieAnimationView animationView = (LottieAnimationView) findViewById(R.id.animation_view);
 animationView.setAnimation("data.json");
