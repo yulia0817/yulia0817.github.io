@@ -25,15 +25,6 @@ sass:
   sass_dir:         _sass
   style:            compressed
 
-# Navigation  
-navigation:
- - title : Home
-  url: /index.html
- - title : About
-  url: /about
- - title : Categories
-  url: /categories
-
 
 # Comments
 disqus_shortname:   taylantatli
