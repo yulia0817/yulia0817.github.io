@@ -5,6 +5,8 @@ date:   2018-03-15
 excerpt: "Lottie, After Effect, Android Studio, Animation, Json"
 tag:
 - Android Studio
+category:
+- Android
 comments: true
 ---
 
@@ -37,7 +39,7 @@ dependencies {
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     app:lottie_autoPlay="true"
-    app:lottie_fileName="---.json" //assets에 추가한 json파일명 적확히 기입
+    app:lottie_fileName="---.json" //assets에 추가한 json파일명 기입
     app:lottie_loop="true"/>
 ~~~ 
 

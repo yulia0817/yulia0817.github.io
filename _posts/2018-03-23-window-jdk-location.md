@@ -14,6 +14,7 @@ comments: true
 * After Effet 애니메이션을 실시간으로 렌더링하는 라이브러리
 * JSON 형식으로 추출한 애니메이션 데이터 사용
 * API14 이상 안드로이드 버전 필요
+
 ## Usage
 
 #### After Effect
@@ -21,7 +22,7 @@ comments: true
 * ZXP Installer로 플러그인 설치 후 `Window>Extensions BodyMovin` 활성화
 * Download에 bodymovin으로 render하여 json 파일 생성
 
-##명령 프롬프트 입력
+## 명령 프롬프트 입력
 ~~~
 C:\>where /r C:\ java.exe
 ~~~

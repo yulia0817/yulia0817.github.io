@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Kotlin
+title: project
 excerpt: "A List of Projects"
 comments: false
 ---
