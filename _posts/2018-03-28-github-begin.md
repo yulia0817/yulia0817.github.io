@@ -6,7 +6,7 @@ excerpt: "Github"
 tag:
 - Github
 comments: true
-
+---
 
 ## 주요 명령어
 * git init : 깃 저장소 초기화

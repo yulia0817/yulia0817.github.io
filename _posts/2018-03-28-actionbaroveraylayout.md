@@ -6,7 +6,7 @@ excerpt: "Android layout preview error"
 tag:
 - Android
 comments: true
-
+---
 
 ## 해결 방법
 * `values>styles.xml` style AppTheme에 Base." 추가
