@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lottie 사용법(Android Studio)"
+title:  "Android Studio Lottie 사용법"
 date:   2018-03-15
 excerpt: "Lottie, After Effect, Android Studio, Animation, Json"
 tag:
