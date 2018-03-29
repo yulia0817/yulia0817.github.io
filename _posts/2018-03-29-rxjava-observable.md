@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Observable"
-date:   2018-03-15
+date:   2018-03-29
 excerpt: "Observable"
 tag:
 - RxJava
@@ -33,7 +33,7 @@ comments: true
 
 #### just()
 * 인자로 넣은 데이터를 차례로 발행하기 위해 Observable 생성
-* 1~10
+* 1~10의 타입이 같은 값
 
 ~~~
 public static <T> Observable<T> just(T item)
@@ -45,11 +45,28 @@ public static <T> Observable<T> just(T item1, T item2, T item3, T item4, T item5
 public static <T> Observable<T> just(T item1, T item2, T item3, T item4, T item5, T item6, T item7)
 public static <T> Observable<T> just(T item1, T item2, T item3, T item4, T item5, T item6, T item7, T item8)
 public static <T> Observable<T> just(T item1, T item2, T item3, T item4, T item5, T item6, T item7, T item8, T item9)
+~~~
 
+* 값은 그대로 출력
+
+~~~
+public class ObservableStudy {
+    public void emit() {
+        Observable.just(1,2,3)
+                .subscribe(System.out::println)
+    }
+}
+~~~
+
+~~~
+1
+2
+3
 ~~~
 
 
+#### subscribe()
 
 +++
-!!! 학습중에 정리한 내용으로
+!!! 학습중에 정리한 내용입니다. 개선할 부분이 있다면 메일 주시면 감사하겠습니다.
 [참고] RxJava 프로그래밍 by 유동환, 박정준
