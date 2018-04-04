@@ -5,6 +5,8 @@ description: "An archive of posts sorted by categories."
 comments: false
 ---
 
+category
+<!-- 
 {% capture site_categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign categories_list = site_categories | split:',' | sort %}
 
@@ -25,4 +27,4 @@ comments: false
     {% endif %}{% endfor %}
 		</ul>
 	</article><!-- /.hentry -->
-{% endunless %}{% endfor %}
+{% endunless %}{% endfor %} -->

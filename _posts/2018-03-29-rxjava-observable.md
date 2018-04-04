@@ -10,7 +10,7 @@ category:
 comments: true
 ---
 
-## Introduction
+## 개요
 
 #### Observable 
 
@@ -28,6 +28,8 @@ comments: true
 * onComplete : 모든 데이터 발행을 완료했음을 알림. 단 한 번 발생
 * onError : Observable에서의 Error를 알림. Observable 실행 종료
 
+
+---
 
 ## 함수
 
@@ -67,6 +69,7 @@ public class ObservableStudy {
 
 #### subscribe()
 
-+++
-!!! 학습중에 정리한 내용입니다. 개선할 부분이 있다면 메일 주시면 감사하겠습니다.
+
+!!! 학습 중. 내용 보충 중
+
 [참고] RxJava 프로그래밍 by 유동환, 박정준
