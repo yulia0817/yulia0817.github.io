@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Kotlin Class"
+date:   2018-03-29
+excerpt: "Sealed Class"
+tag:
+- Kotlin
+comments: true
+---
+
+## Sealed Classes
+
+#### Introductoion
+* 일종의 ADT(Algebraic Data type)
+* 제한된(하나의 타입 가능, 다른 타입x) 클래스 계층구조를 나타냄
+* 추상 클래스로, 추상 멤버를 가질 수 있으나 직접 인스턴스를 가질 수 없음
+
+#### Enum & Sealed Class
+~~~
+//Enum
+//Sealed Class
+~~~
+
+#### Usage
+* Sealed Class 선언 : 클래스 앞에 Sealed 키워드 입력
+~~~
+sealed class Expr 
+~~~
+* Kotlin Context에서 `when`과 함께 사용 가능
+~~~
+fun eval(expr: Expr): Double = when(expr) {  
+    is Const -> expr.number
+    is Sum -> eval(expr.e1) + eval(expr.e2)
+    NotANumber -> Double.NaN
+}
+~~~
