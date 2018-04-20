@@ -8,10 +8,22 @@ tag:
 comments: true
 ---
 
+## 생성자 : constructor
+
+#### Usage
+* java와 달리, class 내부에 생성자를 만들지 않고, constructor 키워드로 생성자 만듬 -> constructor 생략 가능
+
+~~~
+class Person constructor(name:String, age:Int){ }
+// = class Person(name:String, age:Int){ }
+~~~
+
+
 ## Sealed Classes
 
 #### Introductoion
-* 일종의 ADT(Algebraic Data type)
+* 상속을 제한하기 위해 사용하는 class(내부 상속 가능, 외부 모듈 X)
+* 일종의 ADT(Algebraic Data type : 대수 데이터 타입)
 * 제한된(하나의 타입 가능, 다른 타입x) 클래스 계층구조를 나타냄
 * 추상 클래스로, 추상 멤버를 가질 수 있으나 직접 인스턴스를 가질 수 없음
 
