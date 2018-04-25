@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "REST API"
+title:  "DataBinding"
 date:   2018-03-29
-excerpt: "REST API"
+excerpt: "DataBinding"
 tag:
 - Android Studio
 comments: true

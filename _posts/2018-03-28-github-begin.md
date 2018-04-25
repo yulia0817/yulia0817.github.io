@@ -41,7 +41,3 @@ $ git checkout -b newBranchName // 새로운 branch 생성
 $ git push origin newBranchName // id, pw 입력 후 push
 ~~~
 
-!!! 주의 : 완성된 글이 아닙니다. 공부하는 중이며 필요한 부분을 채워 나가고 있습니다. 
-
-
-

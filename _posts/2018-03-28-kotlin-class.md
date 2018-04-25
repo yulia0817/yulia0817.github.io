@@ -27,11 +27,11 @@ class Person constructor(name:String, age:Int){ }
 * 제한된(하나의 타입 가능, 다른 타입x) 클래스 계층구조를 나타냄
 * 추상 클래스로, 추상 멤버를 가질 수 있으나 직접 인스턴스를 가질 수 없음
 
-#### Enum & Sealed Class
+<!-- #### Enum & Sealed Class
 ~~~
 //Enum
 //Sealed Class
-~~~
+~~~ -->
 
 #### Usage
 * Sealed Class 선언 : 클래스 앞에 Sealed 키워드 입력

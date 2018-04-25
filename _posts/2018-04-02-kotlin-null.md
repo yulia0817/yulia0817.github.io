@@ -4,9 +4,9 @@ title:  "Kotlin-Null"
 date:   2018-03-29
 excerpt: "Observable"
 tag:
-- RxJava
+- Kotlin
 category:
-- RxJava
+- Kotlin
 comments: true
 ---
 
@@ -16,8 +16,6 @@ comments: true
 * ? : null을 명시적으로 나타냄
 
 
-## Usage
 
-* null Chec
 
 
